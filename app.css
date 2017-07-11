@@ -7,15 +7,19 @@ body {
   background-size: 400% 400%;
 }
 
+#container {
+  width: 100vw;
+  height: 100vh;
+}
 
 .container {
   height: 700px;
 /*  width: 60px;
 */  background-image: url(img/triangle.png), url(img/circle.png);
-  background-position: top left, bottom left;
-  background-repeat: no-repeat;
+background-position: top left, bottom left;
+background-repeat: no-repeat;
 /*  background-size: contain;
-*/  position: relative;
+*/  position: absolute;
 }
 
 
@@ -23,9 +27,8 @@ body {
   background-image: url(img/line.png);
   background-repeat: repeat-y;
   position: absolute;
-/*  background-size: contain;
-*/  top: 76px;
-  bottom: 139px;
+  top: 70px;
+  bottom: 40px;
   right: 0;
   left: 0;
 }
