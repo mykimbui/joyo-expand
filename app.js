@@ -10,7 +10,7 @@ var destX = parseInt(initX);
 var container = $("#container");
 var elements = []
 var items;
-for (var i = 10; i >= 0; i--) {
+for (var i = 6; i >= 0; i--) {
   item = $('<div class="container"><div class="line"></div></div>')
   elements.push(item)
   container.append(item)
